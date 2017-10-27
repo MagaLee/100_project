@@ -1,0 +1,179 @@
+ /* starts a navigation */
+nav{
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+	background-color: #FFF;
+    border-bottom: 0.5px solid #e6e6e6;
+}
+header{
+	width: 1200px;
+    height: auto;
+}
+.navWrapper{
+	width: 950px;
+    display: flex;
+}
+
+
+/* starts insta logos */
+.group_01{
+	width: 200px;
+	height: 55px;
+    margin: 5px 0;
+}
+.picLogo{
+	width: 30px;
+    margin: 9px 15px;
+    position: relative;
+    top: 4px;
+}
+.borderRight{
+	border: 0.5px solid #000;
+    position: relative;
+    bottom: 19px;
+}
+.nameLogo{
+    width: 100px;
+    margin: 13px 15px 6px;
+}
+/* ends insta logos */
+
+
+/* starts a search */
+.search{
+    width: 230px;
+    height: 30px;
+    position: relative;
+    top: 18px;
+}
+/* ends a search */
+
+
+/* starts insta icons */
+.group_02 {
+    height: 55px;
+    margin: 5px 0;
+}
+.icons{
+	width: 23px;
+	margin: 16px 15px 0;
+}
+/* ends insta icons */
+/* ends a navigation */
+
+
+/* starts a posted pasge */
+main{
+	width: 1200px;
+    height: 100%;
+}
+section{
+	width: 755px;
+}
+
+
+/* starts an insta */
+.picBox{
+	width: 600px;
+    height: auto;
+	background: #fff;
+	margin: 0 auto 100px;
+	border: 0.5px solid #e6e6e6;
+	position: relative;
+    top: 150px;
+}
+
+
+/* starts a profile */
+.profile{
+	float: left;
+	width: 599px;
+	height: 61px;
+    padding: 15px 20px;
+}
+.proPic{
+	width: 30px;
+    margin-right: 10px;
+	border-radius: 20px;
+}
+.name{
+	width: 48px;
+	font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    bottom: 10px;
+}
+/* ends a profile */
+
+
+/* starts a photo */
+.photo{
+	width: 599px;
+}
+/* ends a photo */
+
+
+/* starts a comment box */
+.comtBox{
+	width: 599px;
+	height: auto;
+	position: relative;
+    bottom: 5px;
+}
+.comtIcons{
+	width: 599px;
+	height: 45px;
+    padding: 10px 20px;
+}
+.comtBubble{
+    margin-left: 12px;
+}
+.textBox{
+	width: 599px;
+    padding: 0 20px;
+}
+.more{
+	color: #999;
+	font-size: 12px;
+}
+.text_02{
+	color: #999;
+	font-weight: 400;
+}
+.text_03{
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid #e6e6e6;
+}
+.small{
+	color: #999;
+	font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/* ends a comment box */
+
+
+/**/
+.textarea{
+	width: 599px;
+	padding: 5px 20px 20px;
+}
+.textArea{
+	width: 524px;
+    height: 30px;
+    border: none;
+}
+.ellipsis{
+	width: 30px;
+    position: relative;
+    top: 11px;
+}
+/**/
+/* ends an insta */
+
+
+
+
+

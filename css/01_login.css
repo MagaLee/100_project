@@ -1,0 +1,183 @@
+
+/* starts sign-up*/
+section{
+	width: 755px;
+    height: 757px;
+	position: relative;
+    top: 60px;
+}
+#iphones{
+	width: 51%;
+    position: relative;
+    top: 75px;
+}
+aside{
+	width: 350px;
+	height: 545px;
+	background: #fff;
+	box-sizing: border-box;
+	border: 1px solid #e6e6e6;
+}
+#logo{
+	width: 51%;
+    margin: 25px 87px;
+}
+
+
+/* starts small info & with facebook */ 
+.section_01{
+    position: relative;
+    bottom: 35px;	
+}
+#h2_01{
+	font-size: 17px;
+	font-weight: 700;
+    margin: 10px 44px 13px;
+}
+#facebook{
+	width: 17px;
+	margin: 5px;
+}
+.face_btn{
+	position: relative;
+	bottom: 8px;
+}
+/* ends small info & with facebook */
+
+
+/* starts to separate */
+.section_02{
+	display: inline-flex;
+    position: relative;
+    bottom: 17px;
+}
+h4{
+	width: 111px;
+	height: 10px;
+	border-top: 0.5px solid #c7c7c7;
+}
+.line_01{
+	margin: 5px 0 0 44px;
+}
+#spanOr{
+	color: #999;
+	height: 21px;
+	margin: 0 12px;
+	font-weight: 600;
+	position: relative;
+    bottom: 7px;
+}
+.line_02{
+	margin: 5px 44px 0 0;
+}
+/* ends to separate */
+
+
+/* starts to register */
+.section_03{
+	padding-top: 8px;
+	position: relative;
+	bottom: 14px;
+}
+input{
+    height: 37px;
+    color: #000;
+    font-size: 14px;
+	margin: 0 44px;
+	padding-left: 15px;
+	background: #fafafa;
+}
+input::placeholder {
+	color: #c7c7c7;
+}
+.input{
+	margin-bottom: 7px;
+	border-radius: 3px;
+	border: 0.5px solid #e8e7e7;
+}
+/* ends to register */
+
+
+/* starts signup button */
+.section_04{
+	position: relative;
+	bottom: 5px;
+}
+#h2_02{
+	font-size: 14px;
+    font-weight: 500;
+	margin: 17px 44px;
+}
+.terms_privacy{
+    margin: 0 44px;
+    font-weight: 600;
+	position: relative;
+    bottom: 17px;
+
+}
+.tp_link{
+	color: #999;
+	font-size: 14px;
+}
+/* ends signup button */
+
+
+/* starts account */
+.account_box{
+	height: 75px;
+    background: #fff;
+    position: relative;
+    top: 12px;
+    border: 1px solid #e6e6e6;
+}
+.account{
+	color: #000;
+    font-size: 14px;
+    margin: 27px 0;
+    text-align: center;
+}
+.login_link{
+	color: #3897f0;
+}
+/* ends account */
+
+
+/* starts appshops */
+.appshops{
+	height: 109px;
+    position: relative;
+    top: 53px;
+    left: 350.3px;
+}
+.app{
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.img_box{
+	width: 285px;
+}
+/* ends appshops */
+
+
+/* starts footer */
+footer{
+	width: 1200px;
+    position: relative;
+    top: 20px;
+}
+.footer_link{
+    height: 50px;
+    font-weight: 600;
+    padding: 0 120px;
+	display: inline-flex;
+}
+.copyright{
+	color: #999;
+	font-size: 12px;
+    font-weight: 600;
+    margin: 0 10px;
+    position: relative;
+    left: 188px;
+}
+/* ends footer */

@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	margin: 0;
+	background: #fff;
+}
+.wrap{
+	background: #fafafa;
+}
+html, nav, .footer_link{
+    width: 100%;
+}
+html, body, .wrap, section{
+	height: 100%;
+}
+.navWrapper, main, section, .img_box, footer, .footer_link, header, .search, .textarea{
+	margin: 0 auto;
+}
+nav, section, aside{
+	display: block;
+}
+aside, .account_box, .appshops, #googleplay, .group{
+	float: right;
+}
+#iphones, .section_01, .section_02, .section_03, .section_04, .picLogo{
+	float: left;
+}
+h2, button, input, .terms_privacy{
+	width: 261px;
+	outline: none;
+}
+h2, .terms_privacy{
+	color: #999; 
+}
+h2, button, .terms_privacy, .app{
+    text-align: center;
+}
+a{
+	text-decoration: none;
+}
+button{
+	height: 30px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	background: #3897f0;
+	margin: 0 44px;
+	border-radius: 5px;
+} 
+.face_btn, .sign_btn {
+	font-size: 14px;
+    font-weight: 600;
+}
+.account_box, .appshops{
+	width: 350px;
+}
+.app_img{
+	width: 137px;
+}
+.comt_Icons {
+	width: 25px;
+}
+.textBox .likes, .text_01, .text_02, .nickName{
+	font-size: 13px;
+	margin: 7px 0;
+}
+.nickName{
+	margin: 0;
+    padding-bottom: 7px;	
+}
+.foot_nav{
+	color: #003569;
+	font-weight: 600;
+    margin: 0 10px;
+    font-size: 12px;
+} 
