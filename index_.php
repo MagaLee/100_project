@@ -1,56 +1,10 @@
 <?php 
-
-	/*$insImg = [ 'images/cat_01.png', 'images/cat_02.png' , 'images/cat_03.png'];
-
-	$picBox = [
-		[
-			'author'=>['profImg'=>'images/profile.jpg','name'=>'cka720'],
-			'mainImg'=>'images/cat_01.png',
-			'numberLikes'=>'1,283 likes',
-			'commentBox'=>[
-				['name'=>'cka720', 'comment'=>'얘는 진짜 클수록 멋있음...'],
-				['name'=>'haru_bro', 'comment'=>'왠지 고급진 시나모니~~~'],
-				['name'=>'tkgood2014', 'comment'=>'그래봐야 우리 생강이못따라와요!'],
-				['name'=>'peniel0708', 'comment'=>'귀티가...... 와.........'],
-				['name'=>'jhsoonie', 'comment'=>'테리우스 느낌~']
-			]
-			'time'=>'8 HOURS AGO'
-		],
-		[
-			'author'=>['profImg'=>'images/profile.jpg','name'=>'cka720'],
-			'mainImg'=>'images/cat_02.png',
-			'numberLikes'=>'1,283 likes',
-			'commentBox'=>[
-				['name'=>'cka720', 'comment'=>'얘는 진짜 클수록 멋있음...'],
-				['name'=>'haru_bro', 'comment'=>'왠지 고급진 시나모니~~~'],
-				['name'=>'tkgood2014', 'comment'=>'그래봐야 우리 생강이못따라와요!'],
-				['name'=>'peniel0708', 'comment'=>'귀티가...... 와.........'],
-				['name'=>'jhsoonie', 'comment'=>'테리우스 느낌~']
-			]
-			'time'=>'8 HOURS AGO'
-		],
-		[
-			'author'=>['profImg'=>'images/profile.jpg','name'=>'cka720'],
-			'mainImg'=>'images/cat_03.png',
-			'numberLikes'=>'1,283 likes',
-			'commentBox'=>[
-				['name'=>'cka720', 'comment'=>'얘는 진짜 클수록 멋있음...'],
-				['name'=>'haru_bro', 'comment'=>'왠지 고급진 시나모니~~~'],
-				['name'=>'tkgood2014', 'comment'=>'그래봐야 우리 생강이못따라와요!'],
-				['name'=>'peniel0708', 'comment'=>'귀티가...... 와.........'],
-				['name'=>'jhsoonie', 'comment'=>'테리우스 느낌~']
-			]
-			'time'=>'8 HOURS AGO'
-		]
-	]*/
-
 	/*function get_mentions(){
 		 return [ 'images/cat_01.png', 'images/cat_02.png' , 'images/cat_03.png'];
 
 	}
 
 	$insImg = get_mentions();*/
-
 
 	function get_mentions(){
 		return [
@@ -64,8 +18,8 @@
 					['name'=>'tkgood2014', 'comment'=>'그래봐야 우리 생강이못따라와요!'],
 					['name'=>'peniel0708', 'comment'=>'귀티가...... 와.........'],
 					['name'=>'jhsoonie', 'comment'=>'테리우스 느낌~']
-				],
-				'time'=>'8 HOURS AGO'
+				]
+				/*'time'=>'8 HOURS AGO'*/
 			],
 			[
 				'author'=>['profImg'=>'images/profile.jpg','name'=>'cka720'],
@@ -77,8 +31,8 @@
 					['name'=>'tkgood2014', 'comment'=>'그래봐야 우리 생강이못따라와요!'],
 					['name'=>'peniel0708', 'comment'=>'귀티가...... 와.........'],
 					['name'=>'jhsoonie', 'comment'=>'테리우스 느낌~']
-				],
-				'time'=>'8 HOURS AGO'
+				]
+				/*'time'=>'8 HOURS AGO'*/
 			],
 			[
 				'author'=>['profImg'=>'images/profile.jpg','name'=>'cka720'],
@@ -90,8 +44,8 @@
 					['name'=>'tkgood2014', 'comment'=>'그래봐야 우리 생강이못따라와요!'],
 					['name'=>'peniel0708', 'comment'=>'귀티가...... 와.........'],
 					['name'=>'jhsoonie', 'comment'=>'테리우스 느낌~']
-				],
-				'time'=>'8 HOURS AGO'
+				]
+				/*'time'=>'8 HOURS AGO'*/
 			]
 		];
 	}
@@ -207,7 +161,7 @@
 								<p class="nickName"> <strong> <?php echo $insMenBox[$i]['commentBox'][2]['name'];?> </strong> <?php echo $insMenBox[$i]['commentBox'][2]['comment'];?> </p> 
 								<p class="nickName"> <strong> <?php echo $insMenBox[$i]['commentBox'][3]['name'];?> </strong> <?php echo $insMenBox[$i]['commentBox'][3]['comment'];?>
 								<p class="nickName"> <strong> <?php echo $insMenBox[$i]['commentBox'][4]['name'];?> </strong> <?php echo $insMenBox[$i]['commentBox'][4]['comment'];?> </p> 
-								<div class="small">  <?php echo $insMenBox[$i]['time'];?> </div>
+								<div class="small"> 8 HOURS AGO </div>
 							</div> 
 						</div>
 					</div>

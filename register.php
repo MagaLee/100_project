@@ -17,6 +17,9 @@
 			width: 1200px;
 			height: 90%;
 		}
+		#submit_btn{
+		    margin-top: 10px;
+		}
 	</style>
 
 </head>
@@ -57,25 +60,27 @@
 
 					<!-- starts to register -->
 					<div class="section_03">
-						<input class="input" type="text" placeholder="Mobile Number or Email" value />
-						<input class="input" type="text" placeholder="Full Name" value />
-						<input class="input" type="text" placeholder="User Name" value />
-						<input class="input" type="text" placeholder="Password" value />
+						<form method="post">
+							<input class="input" type="text" name="id" placeholder="Mobile Number or Email" value />
+							<input class="input" type="text" name="fullname" placeholder="FullName" value />
+							<input class="input" type="text" name="username" placeholder="UserName" value />
+							<input class="input" type="text" name="password" placeholder="Password" value />
+							<button id="submit_btn">
+								<span class="sign_btn"> Sign Up </span>
+							</button>
+						</form>
 					</div>
 					<!-- ends to register -->
 
 
-					<!-- starts a signup button -->
+					<!-- starts an info with a privacy policy -->
 					<div class="section_04">
-						<button>
-							<span class="sign_btn"> Sign Up </span>
-						</button>
 						<h2 id="h2_02"> By signing up, you agree to our</h2>
 						<p class="terms_privacy">
 							<a class="tp_link" href="#"> Terms </a> &amp; <a class="tp_link" href="#"> Privacy Policy. </a>
 						</p>
 					</div>
-					<!-- ends a signup button -->
+					<!-- ends an info with a privacy policy -->
 
 
 				</aside>

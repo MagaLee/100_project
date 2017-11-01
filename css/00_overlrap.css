@@ -12,7 +12,7 @@ body{
 html, nav, .footer_link{
     width: 100%;
 }
-html, body, .wrap, section{
+body, main, section{
 	height: 100%;
 }
 .navWrapper, main, section, .img_box, footer, .footer_link, header, .search, .textarea{
