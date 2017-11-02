@@ -2,7 +2,7 @@
 
 	/*$insImg = [ 'images/cat_01.png', 'images/cat_02.png' , 'images/cat_03.png'];
 
-	$picBox = [
+	$mentionBox = [
 		[
 			'author'=>['profImg'=>'images/profile.jpg','name'=>'cka720'],
 			'mainImg'=>'images/cat_01.png',
@@ -13,7 +13,7 @@
 				['name'=>'tkgood2014', 'comment'=>'그래봐야 우리 생강이못따라와요!'],
 				['name'=>'peniel0708', 'comment'=>'귀티가...... 와.........'],
 				['name'=>'jhsoonie', 'comment'=>'테리우스 느낌~']
-			]
+			],
 			'time'=>'8 HOURS AGO'
 		],
 		[
@@ -26,7 +26,7 @@
 				['name'=>'tkgood2014', 'comment'=>'그래봐야 우리 생강이못따라와요!'],
 				['name'=>'peniel0708', 'comment'=>'귀티가...... 와.........'],
 				['name'=>'jhsoonie', 'comment'=>'테리우스 느낌~']
-			]
+			],
 			'time'=>'8 HOURS AGO'
 		],
 		[
@@ -39,7 +39,7 @@
 				['name'=>'tkgood2014', 'comment'=>'그래봐야 우리 생강이못따라와요!'],
 				['name'=>'peniel0708', 'comment'=>'귀티가...... 와.........'],
 				['name'=>'jhsoonie', 'comment'=>'테리우스 느낌~']
-			]
+			],
 			'time'=>'8 HOURS AGO'
 		]
 	]*/
@@ -69,7 +69,7 @@
 			],
 			[
 				'author'=>['profImg'=>'images/profile.jpg','name'=>'cka720'],
-				'mainImg'=>'images/cat_03.png',
+				'mainImg'=>'images/cat_02.png',
 				'numberLikes'=>'1,283 likes',
 				'commentBox'=>[
 					['name'=>'cka720', 'comment'=>'얘는 진짜 클수록 멋있음...'],
@@ -117,9 +117,7 @@
 	<!-- ends an external style sheet -->
 
 	<style>
-		main{
-			width: 1200px;
-		}
+		
 	</style>
 
 </head>
@@ -165,14 +163,16 @@
 			<section>
 
 				<!-- starts an insta -->
+				<!-- starts a php for looping a mentionbox -->
 				<?php 
-					for($i = 0; $i < count($insMenBox); $i++){ ?>
-					<pre> 
-					<?php /*print_r($insMenBox[$i]);*/ ?>
-					</pre>
-				<div class="picBox">
 
-					
+					for($i = 0; $i < count($insMenBox); $i++){ 
+
+				?>
+					<!-- <pre> --> 
+						<?php /*print_r($insMenBox[$i]);*/ ?>
+					<!-- </pre> -->
+				<div class="picBox">
 
 						
 					<!-- starts a profile -->
@@ -202,11 +202,21 @@
 							</p>
 							
 							<div class="text_02">Load more comments</div> 
+
 							<div class="text_03">
-								<p class="nickName"> <strong> <?php echo $insMenBox[$i]['commentBox'][1]['name'];?> </strong> <?php echo $insMenBox[$i]['commentBox'][1]['comment'];?> </p> 
-								<p class="nickName"> <strong> <?php echo $insMenBox[$i]['commentBox'][2]['name'];?> </strong> <?php echo $insMenBox[$i]['commentBox'][2]['comment'];?> </p> 
-								<p class="nickName"> <strong> <?php echo $insMenBox[$i]['commentBox'][3]['name'];?> </strong> <?php echo $insMenBox[$i]['commentBox'][3]['comment'];?>
-								<p class="nickName"> <strong> <?php echo $insMenBox[$i]['commentBox'][4]['name'];?> </strong> <?php echo $insMenBox[$i]['commentBox'][4]['comment'];?> </p> 
+								<?php 
+
+									for($j = 0; $j < count($insMenBox[$i]['commentBox']); $j++){
+
+								?>
+
+								<p class="nickName"> <strong> <?php echo $insMenBox[$i]['commentBox'][$j]['name'];?> </strong> <?php echo $insMenBox[$i]['commentBox'][$j]['comment'];?> </p> 
+
+								<?php 
+
+									}
+
+								?> 
 								<div class="small">  <?php echo $insMenBox[$i]['time'];?> </div>
 							</div> 
 						</div>
@@ -223,7 +233,12 @@
 
 
 				</div>
-				<?php } ?>
+				<?php 
+
+					} 
+
+				?>
+				<!-- ends a php for looping a mentionbox -->
 				<!-- ends an insta -->
 				
 
